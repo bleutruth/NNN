@@ -14,6 +14,10 @@
 		console.log(userName);
 
 		// 診断結果表示エリアの作成
+		while (resultDivided.firstChild) {
+			resultDivided.removeChild(resultDivided.firstChild);
+		}
+
 		const header = document.createElement('h3');
 		header.innerText = '診断結果';
 		resultDivided.appendChild(header);
