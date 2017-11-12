@@ -39,4 +39,9 @@
 	// console.log(assessment('A'));
 	// console.log(assessment('AB'));
 	// console.log(assessment('あいうえお'));
+	console.assert(
+		assessment('太郎') === '太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
+		'診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
+	);
+
 })();
