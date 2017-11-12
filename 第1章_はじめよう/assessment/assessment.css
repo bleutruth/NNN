@@ -13,3 +13,7 @@ button{
 	border-color: #2E6DA4;
 	border-style:none;
 }
+
+input{
+	height: 20px;
+}
