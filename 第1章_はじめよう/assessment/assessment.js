@@ -19,4 +19,19 @@
 		'{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなのです。',
 		'{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。'
 	];
+
+	function assessment(userName) {
+		// 全文字のコード番号を取得してそれを足し合わせる
+		let sumOfcharCode = 0;
+		for (let i = 0; i < userName.length; i++) {
+			sumOfcharCode += userName.charCodeAt(i);
+		}
+
+		// 文字のコード番号の合計を回答の数で割って添字の数値を求める
+		const index = sumOfcharCode % answers.length;
+		const result = answers[index];
+
+		// TODO {userName}をユーザーの名前に置き換える
+		return result;
+	}
 })();
