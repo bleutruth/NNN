@@ -7,7 +7,12 @@
 	const tweetDivided = document.getElementById('tweet-area');
 
 	assessmentButton.onclick = () => {
-		console.log('ボタンが押されました');
+		const userName = userNameInput.value;
+		if (userName.length === 0) {
+			return;
+		}
+		console.log(userName);
+		// TODO 診断結果表示エリアの作成
 	};
 
 	const answers = [
