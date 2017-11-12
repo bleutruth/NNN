@@ -29,9 +29,14 @@
 
 		// 文字のコード番号の合計を回答の数で割って添字の数値を求める
 		const index = sumOfcharCode % answers.length;
-		const result = answers[index];
+		let result = answers[index];
+		result = result.replace(/\{userName\}/g, userName);
 
 		// TODO {userName}をユーザーの名前に置き換える
 		return result;
 	}
+
+	// console.log(assessment('A'));
+	// console.log(assessment('AB'));
+	// console.log(assessment('あいうえお'));
 })();
