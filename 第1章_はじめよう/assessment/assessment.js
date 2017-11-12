@@ -21,6 +21,7 @@
 
 		// 診断結果表示エリアの作成
 		removeAllChildren(resultDivided);
+		removeAllChildren(tweetDivided);
 
 		const header = document.createElement('h3');
 		header.innerText = '診断結果';
