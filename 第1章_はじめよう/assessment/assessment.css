@@ -7,3 +7,9 @@ body{
 	margin-left: auto;
 }
 
+button{
+	padding: 5px 20px;
+	background-color: #337AB7;
+	border-color: #2E6DA4;
+	border-style:none;
+}
