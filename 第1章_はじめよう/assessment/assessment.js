@@ -12,7 +12,16 @@
 			return;
 		}
 		console.log(userName);
-		// TODO 診断結果表示エリアの作成
+
+		// 診断結果表示エリアの作成
+		const header = document.createElement('h3');
+		header.innerText = '診断結果';
+		resultDivided.appendChild(header);
+
+		const paragraph = document.createElement('p');
+		const result = assessment(userName);
+		paragraph.innerText = result;
+		resultDivided.appendChild(paragraph);
 	};
 
 	const answers = [
