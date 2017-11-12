@@ -22,6 +22,8 @@
 		const result = assessment(userName);
 		paragraph.innerText = result;
 		resultDivided.appendChild(paragraph);
+
+		// TODO ツイートエリアの作成
 	};
 
 	const answers = [
@@ -54,8 +56,6 @@
 		const index = sumOfcharCode % answers.length;
 		let result = answers[index];
 		result = result.replace(/\{userName\}/g, userName);
-
-		// TODO {userName}をユーザーの名前に置き換える
 		return result;
 	}
 
