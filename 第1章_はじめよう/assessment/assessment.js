@@ -6,6 +6,12 @@
 	const resultDivided = document.getElementById('result-area');
 	const tweetDivided = document.getElementById('tweet-area');
 
+	function removeAllChildren(element) {
+		while (element.firstChild) {
+			element.removeChild(element.firstChild);
+		}
+	}
+
 	assessmentButton.onclick = () => {
 		const userName = userNameInput.value;
 		if (userName.length === 0) {
@@ -14,9 +20,7 @@
 		console.log(userName);
 
 		// 診断結果表示エリアの作成
-		while (resultDivided.firstChild) {
-			resultDivided.removeChild(resultDivided.firstChild);
-		}
+		removeAllChildren(resultDivided);
 
 		const header = document.createElement('h3');
 		header.innerText = '診断結果';
