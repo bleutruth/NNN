@@ -12,12 +12,18 @@
 		}
 	}
 
+	userNameInput.onkeydown = (event) => {
+		if (event.keyCode === 13) {	// Enterキー
+			assessmentButton.onclick();
+		}
+	};
+
 	assessmentButton.onclick = () => {
 		const userName = userNameInput.value;
 		if (userName.length === 0) {
 			return;
 		}
-		console.log(userName);
+		// console.log(userName);
 
 		// 診断結果表示エリアの作成
 		removeAllChildren(resultDivided);
