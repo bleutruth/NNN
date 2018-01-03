@@ -15,5 +15,5 @@ my-first.html
 HTMLファイルを作ってみる
 Chromeから開いてみる
 
-練習、haiku.html
-brタグ
+◇03.さまざまなHTMLタグ
+h, p, a, img, ul, tableタグ
