@@ -8,12 +8,20 @@
 Chromeのインストール
 ChromeのconsoleからJavaScriptの体験
 
+ここから、HTML習得
+↓↓↓
 ◇02.はじめてのHTML
 VSCodeのインストール
-
-my-first.html
 HTMLファイルを作ってみる
 Chromeから開いてみる
 
 ◇03.さまざまなHTMLタグ
 h, p, a, img, ul, tableタグ
+
+◇04.HTMLで作る自己紹介ページ
+YouTubeの動画埋め込み
+GoogleMapの埋め込み
+
+ここから、JavaScript習得
+↓↓↓
+◇05.はじめてのJavaScript
