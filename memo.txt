@@ -25,3 +25,9 @@ GoogleMapの埋め込み
 ここから、JavaScript習得
 ↓↓↓
 ◇05.はじめてのJavaScript
+.jsファイルに分離
+Chromeからエラーやログを確認する
+
+◇06.JavaScriptでの計算
+データ型(数値、文字列、真偽値)
+変数(var, const, let)
