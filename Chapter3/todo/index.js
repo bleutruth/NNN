@@ -59,9 +59,18 @@ function donelist() {
 		.map(t => t[0]);
 }
 
+/**
+ * 項目を削除する
+ * @param {string} task
+ */
+function del(task) {
+	tasks.delete(task);
+}
+
 module.exports = {
 	todo: todo,
 	list: list,
 	done: done,
-	donelist: donelist
+	donelist: donelist,
+	del: del
 };
