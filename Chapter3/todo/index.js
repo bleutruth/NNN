@@ -3,6 +3,16 @@
 // key: タスクの文字列, value: 完了しているかどうかの真偽値
 const tasks = new Map();
 
+const fs = require('fs');
+const fileName = './tasks.json';
+
+/**
+ * タスクをファイルに保存する
+ */
+function saveTasks() {
+	fs.writeFileSync(fileName, JSON.stringify(Array.from(tasks)), 'utf8');
+}
+
 /**
  * TODOを追加する
  * @param {string} task
