@@ -19,6 +19,7 @@ function saveTasks() {
  */
 function todo(task) {
 	tasks.set(task, false);
+	saveTasks();
 }
 
 /**
@@ -56,6 +57,7 @@ function list() {
 function done(task) {
 	if (tasks.has(task)) {
 		tasks.set(task, true);
+		saveTasks();
 	}
 }
 
@@ -75,6 +77,7 @@ function donelist() {
  */
 function del(task) {
 	tasks.delete(task);
+	saveTasks();
 }
 
 module.exports = {
