@@ -15,14 +15,14 @@ VSCodeのインストール
 HTMLファイルを作ってみる
 Chromeから開いてみる
 
-【2017年度】プログラミング入門 Webアプリ
-
 ◇03.さまざまなHTMLタグ
 h, p, a, img, ul, tableタグ
 
 ◇04.HTMLで作る自己紹介ページ
 YouTubeの動画埋め込み
 GoogleMapの埋め込み
+
+【2017年度】プログラミング入門 Webアプリ
 
 ここから、JavaScript習得
 ↓↓↓
