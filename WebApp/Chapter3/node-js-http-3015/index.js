@@ -1,6 +1,7 @@
 'use strict';
 
 const http = require('http');
+const jade = require('jade');
 const server = http.createServer((req, res) => {
 	const now = new Date();
 	console.info('[' + now + '] Requested by ' + req.connection.remoteAddress);
@@ -10,9 +11,8 @@ const server = http.createServer((req, res) => {
 
 	switch (req.method) {
 	case 'GET':
-		const fs = require('fs');
-		const rs = fs.createReadStream('./form.html');
-		rs.pipe(res);
+		res.write(jade.renderFile('./form.jade', {}));
+		res.end();
 		break;
 	case 'POST':
 		let body = [];
