@@ -5,11 +5,11 @@ html(land="ja")
     title アンケート
   body
     h1 どちらが食べたいですか？
-    form(method="post", action="/enquetes/yaki-shabu")
+    form(method="post", action="#{path}")
       span 名前:
       input(type="text", name="name")
-      input(type="radio", name="yaki-shabu", value="焼き肉")
-      span 焼き肉
-      input(type="radio", name="yaki-shabu", value="しゃぶしゃぶ")
-      span しゃぶしゃぶ
+      input(type="radio", name="favorite", value="#{firstItem}")
+      span #{firstItem}
+      input(type="radio", name="favorite", value="#{secondItem}")
+      span #{secondItem}
       button(type="submit") 投稿
