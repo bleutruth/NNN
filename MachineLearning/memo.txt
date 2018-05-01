@@ -4,3 +4,7 @@
 
 [第1章]Python基礎講座
 ◇01.Pythonのインストール
+
+◇02.Python/JupyterNotebook
+Jupyter のインストール
+JupyterNotebook の起動
