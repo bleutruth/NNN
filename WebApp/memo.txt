@@ -22,13 +22,13 @@ h, p, a, img, ul, tableタグ
 YouTubeの動画埋め込み
 GoogleMapの埋め込み
 
-【2017年度】プログラミング入門 Webアプリ
-
 ここから、JavaScript習得
 ↓↓↓
 ◇05.はじめてのJavaScript
 .jsファイルに分離
 Chromeからエラーやログを確認する
+
+【2017年度】プログラミング入門 Webアプリ
 
 ◇06.JavaScriptでの計算
 データ型(数値、文字列、真偽値)
