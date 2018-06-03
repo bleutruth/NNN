@@ -1,0 +1,8 @@
+{
+	"name": "Enquetes",
+	"description": "Enquetes for favorite foods.",
+	"repository": "https://github.com/bleutruth/NNN/WebApp/Chapter3/node-js-http-3016",
+	"logo": "",
+	"keywords": ["node"],
+	"image": "heroku/nodejs"
+}
